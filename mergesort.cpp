@@ -5,6 +5,7 @@
 
 int[] mergesort(int arr[], int const& length)
 {
+	int arr_copy[]
 	if (length <= 1)
 		return arr;
 	int[length] left;
