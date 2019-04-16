@@ -1,2 +1,2 @@
-mergesort: mergesort.cpp merge.cpp
-	g++ -o mergesort mergesort.cpp merge.cpp -g -fsanitize=address
+mergesort: main.cpp mergesort.cpp merge.cpp
+	g++ -o mergesort main.cpp mergesort.cpp merge.cpp -g -fsanitize=address
